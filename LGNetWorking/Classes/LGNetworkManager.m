@@ -10,4 +10,10 @@
 
 @implementation LGNetworkManager
 
+- (void)testPrint:(NSString *)text {
+    
+    NSLog(@"JCNetworkManager print == %@",text);
+    
+}
+
 @end

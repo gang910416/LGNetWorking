@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		791EE8520F4F28E906B55B4C /* Pods_LGNetWorking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB7D57B3FED1D90FAB8427D /* Pods_LGNetWorking_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C2298CDA24E074C30048DD53 /* LGNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2298CD924E074C30048DD53 /* LGNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		138CD28866C02A2834989916 /* Pods-LGNetWorking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGNetWorking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LGNetWorking_Tests/Pods-LGNetWorking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E8C1E7B4EA0A6D36501DF62 /* Pods-LGNetWorking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGNetWorking_Tests.release.xcconfig"; path = "Target Support Files/Pods-LGNetWorking_Tests/Pods-LGNetWorking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		445D6CC040EE439671E0DE21 /* Pods_LGNetWorking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGNetWorking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54DA786C250AE597A7E4C190 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		54DA786C250AE597A7E4C190 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LGNetWorking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGNetWorking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +64,10 @@
 		6FB7D57B3FED1D90FAB8427D /* Pods_LGNetWorking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGNetWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		927D9C80A9AAE234FE58E8FD /* LGNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LGNetWorking.podspec; path = ../LGNetWorking.podspec; sourceTree = "<group>"; };
-		9B7D6BFA2CC9653707E4E2F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		927D9C80A9AAE234FE58E8FD /* LGNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGNetWorking.podspec; path = ../LGNetWorking.podspec; sourceTree = "<group>"; };
+		9B7D6BFA2CC9653707E4E2F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2298CD824E074C30048DD53 /* LGNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LGNetworkManager.h; path = ../LGNetWorking/Classes/LGNetworkManager.h; sourceTree = "<group>"; };
+		C2298CD924E074C30048DD53 /* LGNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LGNetworkManager.m; path = ../LGNetWorking/Classes/LGNetworkManager.m; sourceTree = "<group>"; };
 		C6312FB9668E784555952117 /* Pods-LGNetWorking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGNetWorking_Example.debug.xcconfig"; path = "Target Support Files/Pods-LGNetWorking_Example/Pods-LGNetWorking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FD676D36C6919E346B183876 /* Pods-LGNetWorking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGNetWorking_Example.release.xcconfig"; path = "Target Support Files/Pods-LGNetWorking_Example/Pods-LGNetWorking_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +184,8 @@
 				927D9C80A9AAE234FE58E8FD /* LGNetWorking.podspec */,
 				54DA786C250AE597A7E4C190 /* README.md */,
 				9B7D6BFA2CC9653707E4E2F9 /* LICENSE */,
+				C2298CD824E074C30048DD53 /* LGNetworkManager.h */,
+				C2298CD924E074C30048DD53 /* LGNetworkManager.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -193,7 +198,6 @@
 				138CD28866C02A2834989916 /* Pods-LGNetWorking_Tests.debug.xcconfig */,
 				2E8C1E7B4EA0A6D36501DF62 /* Pods-LGNetWorking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -384,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* LGNAppDelegate.m in Sources */,
+				C2298CDA24E074C30048DD53 /* LGNetworkManager.m in Sources */,
 				6003F5A7195388D20070C39A /* LGNViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
